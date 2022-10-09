@@ -1,0 +1,14 @@
+usr/bin/kdeinit5
+usr/bin/kdeinit5_shutdown
+usr/bin/kdeinit5_wrapper
+usr/bin/kshell5
+usr/bin/kwrapper5
+usr/lib/*/libexec/kf5/klauncher
+usr/lib/*/libexec/kf5/start_kdeinit
+usr/lib/*/libexec/kf5/start_kdeinit_wrapper
+usr/lib/*/libkdeinit5_klauncher.so
+usr/share/locale/*/*/kinit5.mo
+usr/share/man/*/man8/kdeinit5.8
+usr/share/man/man8/kdeinit5.8
+usr/share/qlogging-categories5/kinit.categories
+usr/share/qlogging-categories5/kinit.renamecategories

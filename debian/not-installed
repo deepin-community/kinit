@@ -1,0 +1,3 @@
+# manpages are gzipped and generate false positives in the test
+usr/share/man/man8/kdeinit5.8
+usr/share/man/*/man8/kdeinit5.8

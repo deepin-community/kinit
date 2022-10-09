@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5 --without build_stamp
+
+override_dh_installdeb:
+	sed 's/#DEB_HOST_MULTIARCH#/$(DEB_HOST_MULTIARCH)/' \
+	    debian/kinit.postinst.in > debian/kinit.postinst
+	dh_installdeb
