@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2004-12-14 09:11-0600\n"
 "Last-Translator: Kevin Scannell <kscanne@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n < 11 ? "
 "3 : 4\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Seans go bhfuil líon uasta na gcomhad ar féidir bheith oscailte sroichte, nó "
 "líon uasta na gcomhad a bhfuil cead agat iad a úsáid."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -41,29 +41,6 @@ msgstr ""
 "Ní féidir próiseas nua a thosú.\n"
 "Seans go bhfuil líon uasta na bpróiseas sroichte, nó líon uasta na bpróiseas "
 "a bhfuil cead agat iad a úsáid."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Níorbh fhéidir comhad inrite '%1' a fhail."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Níorbh fhéidir leabharlann '%1' a oscailt.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Níorbh fhéidir 'kdemain' a aimsiú i '%1'.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, kde-format

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2011-07-22 16:08+0200\n"
 "Last-Translator: Marko Dimjašević <marko@dimjasevic.net>\n"
 "Language-Team: Croatian <kde-croatia-list@lists.sourceforge.net>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -40,7 +40,7 @@ msgstr ""
 "Možda je sustav dosegnuo maksimalni broj mogućih otvorenih datoteka ili je "
 "dosegnut maksimalni dozvoljen broj otvorenih datoteka."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -50,29 +50,6 @@ msgstr ""
 "Nemoguće stvoriti novi proces.\n"
 "Možda je sustav dosegnuo maksimalan broj mogućih procesa ili je dosegnut "
 "maksimalan dozvoljen broj procesa."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Nije moguće pronaći izvršnu datoteku '%1'."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Nije moguće otvoriti biblioteku '%1'.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Nije moguće pronaći 'kdemain' unutar '%1'.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, fuzzy, kde-format

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4 stable\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2006-01-12 16:33+0200\n"
 "Last-Translator: JUANITA FRANZ <JUANITA.FRANZ@VR-WEB.DE>\n"
 "Language-Team: AFRIKAANS <translate-discuss-af@lists.sourceforge.net>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -25,7 +25,7 @@ msgstr ""
 "die maksimum aantal van oop lêers wat jy toegelaat word om te gebruik, is "
 "bereik."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -36,29 +36,6 @@ msgstr ""
 "Die stelsel mag dalk bereik het die maksimale aantal oop lêers moontlik of "
 "die maksimum aantal van oop lêers wat jy toegelaat word om te gebruik, is "
 "bereik."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Kon nie die program '%1' vind nie."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Kon nie biblioteek '%1' oopmaak nie.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Kon nie 'kdemain' in '%1' kry nie.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, fuzzy, kde-format

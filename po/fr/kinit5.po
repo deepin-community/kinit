@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2017-01-07 09:56+0100\n"
 "Last-Translator: Vincent Pinon <vpinon@kde.org>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
@@ -35,7 +35,7 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -47,7 +47,7 @@ msgstr ""
 "possibles ou que le nombre maximal de fichiers ouverts que vous êtes "
 "autorisé à employer ait été atteint."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -58,29 +58,6 @@ msgstr ""
 "Il se peut que le système ait atteint le nombre maximal de processus "
 "possibles ou que le nombre maximal de processus que vous êtes autorisé à "
 "employer ait été atteint."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Il est impossible de trouver l'exécutable « %1 »."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Il est impossible d'ouvrir la bibliothèque « %1 ».\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Il est impossible de trouver « kdemain » dans « %1 ».\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, kde-format

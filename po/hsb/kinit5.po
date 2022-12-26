@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2008-12-19 22:49+0100\n"
 "Last-Translator: Eduard Werner <edi.werner@gmx.de>\n"
 "Language-Team: en_US <kde-i18n-doc@lists.kde.org>\n"
@@ -20,9 +20,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
 "%100==4 ? 2 : 3;\n"
-"X-Generator: KAider 0.1\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -32,7 +31,7 @@ msgstr ""
 "Njemóžu nowy proces startować.\n"
 "Snano je hižo maksimalna ličba datajow wočinjena."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -41,29 +40,6 @@ msgid ""
 msgstr ""
 "Njemóžu nowy proces stworić.\n"
 "Snano běži hižo maksimalna ličba procesow na tutym systemje."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Njemóžach program '%1' namakać"
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Njemóžach biblioteku '%1' wočinić.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Njemóžach 'kdemailn' namakać w '%1'.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, fuzzy, kde-format

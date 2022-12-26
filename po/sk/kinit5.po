@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2016-12-27 12:57+0100\n"
 "Last-Translator: Roman Paholik <wizzardsk@gmail.com>\n"
 "Language-Team: Slovak <kde-sk@linux.sk>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Systém možno dosiahol stav maximálneho možného počtu otvorených súborov "
 "alebo maximálneho počtu otvorených súborov, ktoré môžete použiť."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -43,29 +43,6 @@ msgstr ""
 "Nedá sa vytvoriť nový proces.\n"
 "Systém možno dosiahol stav maximálneho možného počtu procesov alebo "
 "maximálneho počtu procesov, ktoré môžete použiť."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Nepodarilo sa nájsť program '%1'."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Nepodarilo sa otvoriť knižnicu '%1'.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Nepodarilo sa nájsť 'kdemain' v '%1'.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, kde-format

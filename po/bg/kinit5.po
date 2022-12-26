@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2013-07-23 01:52+0300\n"
 "Last-Translator: Yasen Pramatarov <yasen@lindeas.com>\n"
 "Language-Team: Bulgarian <dict@ludost.net>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Lokalize 1.5\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Системата може да е достигнала максималния брой отворени файлове или "
 "максималния брой отворени файлове, които вие може да ползвате."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -39,29 +39,6 @@ msgstr ""
 "Грешка при създаването на нов процес.\n"
 "Системата може да е достигнала максималния брой разрешени процеси или "
 "максималния брой разрешени процеси, които вие може да стартирате."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "Не може да бъде намерен изпълним файл \"%1\"."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"Грешка при отваряне на библиотеката \"%1\".\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"Библиотеката \"kdemain\" не може да бъде намерена в \"%1\".\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, fuzzy, kde-format

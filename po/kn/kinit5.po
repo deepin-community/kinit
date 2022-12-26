@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2010-06-24 18:32+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: kn_IN <kde-i18n-doc@kde.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -32,7 +32,7 @@ msgstr ""
 "ನೀನು ಬಳಸಬಹುದಾದ ಗರಿಷ್ಟ ತೆರೆದ ಕಡತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಮುಟ್ಟಲಾಗಿದೆ ಇಲ್ಲವೇ ವ್ಯವಸ್ಥೆಯು "
 "ಸಮರ್ಥಿಸಬಹುದಾದ ಗರಿಷ್ಟ ತೆರೆದ ಕಡತಗಳ ಸಂಖ್ಯೆಯನ್ನು ಮುಟ್ಟಲಾಗಿದೆ."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -42,29 +42,6 @@ msgstr ""
 "ಹೊಸ ಪ್ರಕ್ರಿಯೆ (ಪ್ರೋಸಸ್) ಅನ್ನು ಸೃಷ್ಟಿಸಲಾಗುತ್ತಿಲ್ಲ.\n"
 "ನೀನು ಬಳಸಬಹುದಾದ ಗರಿಷ್ಟ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಮುಟ್ಟಲಾಗಿದೆ ಇಲ್ಲವೇ ವ್ಯವಸ್ಥೆಯು ಸಮರ್ಥಿಸಬಹುದಾದ "
 "ಗರಿಷ್ಟ ಪ್ರಕ್ರಿಯೆಗಳನ್ನು ಮುಟ್ಟಲಾಗಿದೆ."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "'%1' ಚಾಲನಾರ್ಹವು ಕಾಣಬರಲಿಲ್ಲ."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"'%1' ಭಂಡಾರವನ್ನು ತೆರೆಯಲಾಗಲಿಲ್ಲ.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"'%1' ನಲ್ಲಿ 'ಕೆಡಿಇ ಮೈನ್' ಕಾಣಬರಲಿಲ್ಲ.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, fuzzy, kde-format

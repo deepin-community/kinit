@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2007-11-05 15:41+0545\n"
 "Last-Translator: Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n !=1\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -33,7 +33,7 @@ msgstr ""
 "प्रणाली सम्भव खुला फाइलको अधिकतम सङ्ख्यामा पुग्यो वा तपाईँले प्रयोग गर्न अनुमति दिनु भएको "
 "खुला फाइलको अधिकतम सङ्ख्यामा पुगेकोछ ।"
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -43,29 +43,6 @@ msgstr ""
 "नयाँ प्रक्रिया सिर्जना गर्न अक्षम ।\n"
 "प्रणाली सम्भवत खुला फाइलको अधिकतम सङ्ख्यामा पुग्यो वा तपाईँले प्रयोग गर्न अनुमति दिनु "
 "भएको खुला फाइलको अधिकतम सङ्ख्यामा पुगेकोछ ।"
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "'%1' कार्यान्वयनयोग्य फेला पार्न सकेन ।"
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"'%1' लाइब्रेरी खोल्न सकेन ।\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"'%1' मा 'kdemain' फेला पार्न सकेन ।\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, fuzzy, kde-format

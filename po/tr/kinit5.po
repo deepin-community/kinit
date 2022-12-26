@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-11 00:16+0000\n"
+"POT-Creation-Date: 2021-10-10 00:14+0000\n"
 "PO-Revision-Date: 2017-05-08 14:43+0000\n"
 "Last-Translator: Kaan <kaanozdincer@gmail.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 1.4\n"
 
-#: kdeinit/kinit.cpp:496
+#: kdeinit/kinit.cpp:448
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Sisteminiz mümkün olan, -ya da sizin belirlemiş olduğunuz- 'en fazla sayıda "
 "açık dosya' sınırına ulaşmış durumda."
 
-#: kdeinit/kinit.cpp:518
+#: kdeinit/kinit.cpp:470
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -53,29 +53,6 @@ msgstr ""
 "Yeni bir işlem süreci yaratmak olanaksız.\n"
 "Sisteminiz mümkün olan, -ya da sizin belirlemiş olduğunuz- 'en fazla sayıda "
 "işlem süreci' sınırına ulaşmış durumda."
-
-#: kdeinit/kinit.cpp:601
-#, kde-format
-msgid "Could not find '%1' executable."
-msgstr "'%1' uygulaması bulunamadı."
-
-#: kdeinit/kinit.cpp:634
-#, kde-format
-msgid ""
-"Could not open library '%1'.\n"
-"%2"
-msgstr ""
-"'%1' kitaplığı açılamadı.\n"
-"%2"
-
-#: kdeinit/kinit.cpp:671
-#, kde-format
-msgid ""
-"Could not find 'kdemain' in '%1'.\n"
-"%2"
-msgstr ""
-"'%1' içinde 'kdemain' bulunamadı.\n"
-"%2"
 
 #: klauncher/klauncher.cpp:418
 #, kde-format
