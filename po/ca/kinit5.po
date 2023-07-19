@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:14+0000\n"
+"POT-Creation-Date: 2023-01-22 00:53+0000\n"
 "PO-Revision-Date: 2020-07-20 13:38+0200\n"
 "Last-Translator: Antoni Bella Pérez <antonibella5@yahoo.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Accelerator-Marker: &\n"
 
-#: kdeinit/kinit.cpp:448
+#: kdeinit/kinit.cpp:455
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -36,7 +36,7 @@ msgstr ""
 "Potser el sistema ha arribat al màxim nombre de fitxers oberts possible o al "
 "nombre màxim de fitxers oberts que esteu autoritzat a usar."
 
-#: kdeinit/kinit.cpp:470
+#: kdeinit/kinit.cpp:477
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -52,37 +52,37 @@ msgstr ""
 msgid "KDEInit could not launch '%1'"
 msgstr "El KDEInit no ha pogut llançar «%1»"
 
-#: klauncher/klauncher.cpp:595 klauncher/klauncher.cpp:609
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "No s'ha pogut trobar el servei «%1»."
 
-#: klauncher/klauncher.cpp:627
+#: klauncher/klauncher.cpp:626
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr "El servei «%1» ha de ser executable per a la seva execució."
 
-#: klauncher/klauncher.cpp:629 klauncher/klauncher.cpp:690
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "El servei «%1» està mal formatat."
 
-#: klauncher/klauncher.cpp:785
+#: klauncher/klauncher.cpp:784
 #, kde-format
 msgid "Launching %1"
 msgstr "S'està llançant %1"
 
-#: klauncher/klauncher.cpp:966
+#: klauncher/klauncher.cpp:965
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Protocol desconegut «%1».\n"
 
-#: klauncher/klauncher.cpp:972
+#: klauncher/klauncher.cpp:971
 #, kde-format
 msgid "Could not find the '%1' plugin.\n"
 msgstr "No s'ha pogut trobar el connector «%1».\n"
 
-#: klauncher/klauncher.cpp:1045
+#: klauncher/klauncher.cpp:1044
 #, kde-format
 msgid "Error loading '%1'."
 msgstr "Error en carregar «%1»."
@@ -95,3 +95,20 @@ msgid ""
 msgstr ""
 "klauncher: Aquest programa no està pensat per a ser iniciat manualment.\n"
 "klauncher: Serà iniciat automàticament pel kdeinit5.\n"
+
+#~ msgid "Could not find '%1' executable."
+#~ msgstr "No s'ha pogut trobar l'executable «%1»."
+
+#~ msgid ""
+#~ "Could not open library '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "No s'ha pogut obrir la biblioteca «%1».\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "Could not find 'kdemain' in '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "No s'ha pogut trobar «kdemain» a «%1».\n"
+#~ "%2"
