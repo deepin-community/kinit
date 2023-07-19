@@ -1,42 +1,45 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(KInit)
+set(KF_VERSION "5.103.0") # handled by release scripts
+set(KF_DEP_VERSION "5.103.0") # handled by release scripts
+project(KInit VERSION ${KF_VERSION})
 
 include(FeatureSummary)
-find_package(ECM 5.90.0  NO_MODULE)
+find_package(ECM 5.103.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
 
-set(REQUIRED_QT_VERSION 5.15.2)
-find_package(Qt5 "${REQUIRED_QT_VERSION}" CONFIG REQUIRED Core Gui DBus)
 include(KDEInstallDirs)
-include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(KDECMakeSettings)
+include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
+
 include(ECMSetupVersion)
 include(ECMQtDeclareLoggingCategory)
+include(ECMDeprecationSettings)
+include(ConfigureChecks.cmake)
 
-set(KF_VERSION "5.90.0") # handled by release scripts
-set(KF_DEP_VERSION "5.90.0") # handled by release scripts
+set(REQUIRED_QT_VERSION 5.15.2)
+find_package(Qt5 "${REQUIRED_QT_VERSION}" CONFIG REQUIRED Core Gui DBus)
 
-ecm_setup_version(${KF_VERSION} VARIABLE_PREFIX KINIT
+ecm_setup_version(PROJECT VARIABLE_PREFIX KINIT
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/kinit_version.h"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5InitConfigVersion.cmake"
                         SOVERSION 5)
 
-########### Configuring (mainly for proctitle) ###########
-include(ConfigureChecks.cmake)
-
 #optional features
-if (NOT APPLE)
-    find_package(X11)
-endif()
-set(HAVE_X11 ${X11_FOUND})
+if (NOT APPLE AND NOT WIN32)
+    option(WITH_X11 "Build with X11 integration" ON)
+    if(WITH_X11)
+        find_package(X11 REQUIRED)
+        set(HAVE_X11 1)
 
-find_package(XCB MODULE COMPONENTS XCB)
-set_package_properties(XCB PROPERTIES TYPE OPTIONAL)
-set(HAVE_XCB ${XCB_XCB_FOUND})
+        find_package(XCB MODULE COMPONENTS XCB)
+        set_package_properties(XCB PROPERTIES TYPE OPTIONAL)
+        set(HAVE_XCB ${XCB_XCB_FOUND})
+    endif()
+endif()
 
 # used by 4 executables in this module
 if(HAVE_SOCKET_LIBRARY)
@@ -70,9 +73,15 @@ configure_package_config_file(
   PATH_VARS KDE_INSTALL_DBUSINTERFACEDIR
   INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
 )
-add_definitions(-DQT_DISABLE_DEPRECATED_BEFORE=0x050f02)
-add_definitions(-DKF_DISABLE_DEPRECATED_BEFORE_AND_AT=0x055100)
+
 add_definitions(-DTRANSLATION_DOMAIN=\"kinit5\")
+
+ecm_set_disabled_deprecation_versions(
+    QT 5.15.2
+    KF 5.95
+    KCOREADDONS 5.85 # KPluginLoader::fileName
+)
+
 ki18n_install(po)
 
 if (KF5DocTools_FOUND)

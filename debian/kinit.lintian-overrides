@@ -1,9 +1,9 @@
 kinit: package-name-doesnt-match-sonames libkdeinit5-klauncher
-kinit: binary-without-manpage usr/bin/kdeinit5_shutdown
-kinit: binary-without-manpage usr/bin/kdeinit5_wrapper
-kinit: binary-without-manpage usr/bin/kshell5
-kinit: binary-without-manpage usr/bin/kwrapper5
+kinit: no-manual-page [usr/bin/kdeinit5_shutdown]
+kinit: no-manual-page [usr/bin/kdeinit5_wrapper]
+kinit: no-manual-page [usr/bin/kshell5]
+kinit: no-manual-page [usr/bin/kwrapper5]
 kinit: shared-library-lacks-version usr/lib/*/libkdeinit5_klauncher.so libkdeinit5_klauncher.so
-kinit: lacks-unversioned-link-to-shared-library usr/lib/*/libkdeinit5_klauncher.so usr/lib/*/libkdeinit5_klauncher.so
+kinit: lacks-unversioned-link-to-shared-library example: usr/lib/*/libkdeinit5_klauncher.so [usr/lib/*/libkdeinit5_klauncher.so]
 kinit: lacks-ldconfig-trigger usr/lib/*/libkdeinit5_klauncher.so
 kinit: no-symbols-control-file usr/lib/*/libkdeinit5_klauncher.so

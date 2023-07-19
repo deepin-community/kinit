@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinit\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:14+0000\n"
+"POT-Creation-Date: 2023-01-22 00:53+0000\n"
 "PO-Revision-Date: 2020-07-16 08:54+0400\n"
 "Last-Translator: Xəyyam Qocayev <xxmn77@gmail.com>\n"
 "Language-Team: Azerbaijani <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 20.04.3\n"
 
-#: kdeinit/kinit.cpp:448
+#: kdeinit/kinit.cpp:455
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Yeni prosesin başlanması uğursuz oldu.\n"
 "Sistemdə açılan sənədlərin sayı icazə verilən limiti keçir."
 
-#: kdeinit/kinit.cpp:470
+#: kdeinit/kinit.cpp:477
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -42,37 +42,37 @@ msgstr ""
 msgid "KDEInit could not launch '%1'"
 msgstr "KDEİnit başladıla bilmədi '%1'"
 
-#: klauncher/klauncher.cpp:595 klauncher/klauncher.cpp:609
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "Xidmət '%1' tapılmadı."
 
-#: klauncher/klauncher.cpp:627
+#: klauncher/klauncher.cpp:626
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr "'%1' xidməti, icra faylı kimi başladılmalıdır."
 
-#: klauncher/klauncher.cpp:629 klauncher/klauncher.cpp:690
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "'%1' xidməti düzgün formatda deyil."
 
-#: klauncher/klauncher.cpp:785
+#: klauncher/klauncher.cpp:784
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 Başladılır"
 
-#: klauncher/klauncher.cpp:966
+#: klauncher/klauncher.cpp:965
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Naməlum protokol '%1'.\n"
 
-#: klauncher/klauncher.cpp:972
+#: klauncher/klauncher.cpp:971
 #, kde-format
 msgid "Could not find the '%1' plugin.\n"
 msgstr "'%1' qoşması tapılmadı.\n"
 
-#: klauncher/klauncher.cpp:1045
+#: klauncher/klauncher.cpp:1044
 #, kde-format
 msgid "Error loading '%1'."
 msgstr "Xəta yüklənir '%1'."
@@ -85,3 +85,20 @@ msgid ""
 msgstr ""
 "klauncher: Bu proqram əllə başladıla bilməz.\n"
 "Bu kdeinit5 tərəfindən avtomatik başladılır.\n"
+
+#~ msgid "Could not find '%1' executable."
+#~ msgstr "'%1' icra faylı tapılmadı"
+
+#~ msgid ""
+#~ "Could not open library '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Kitabxana '%1' tapılmadı .\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "Could not find 'kdemain' in '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "'%1' -də kdemain tapılmadı \n"
+#~ "%2"

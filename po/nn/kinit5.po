@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:14+0000\n"
+"POT-Creation-Date: 2023-01-22 00:53+0000\n"
 "PO-Revision-Date: 2017-02-05 10:30+0100\n"
 "Last-Translator: Karl Ove Hufthammer <karl@huftis.org>\n"
 "Language-Team: Norwegian Nynorsk <l10n-no@lister.huftis.org>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Accelerator-Marker: &\n"
 "X-Text-Markup: kde4\n"
 
-#: kdeinit/kinit.cpp:448
+#: kdeinit/kinit.cpp:455
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -33,7 +33,7 @@ msgstr ""
 "Systemet har anten nådd det høgste moglege talet på opne filer eller det "
 "høgste talet på opne filer du har lov til å bruka."
 
-#: kdeinit/kinit.cpp:470
+#: kdeinit/kinit.cpp:477
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -49,37 +49,37 @@ msgstr ""
 msgid "KDEInit could not launch '%1'"
 msgstr "KDEInit klarte ikkje starta «%1»"
 
-#: klauncher/klauncher.cpp:595 klauncher/klauncher.cpp:609
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "Fann ikkje tenesta «%1»."
 
-#: klauncher/klauncher.cpp:627
+#: klauncher/klauncher.cpp:626
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr "Tenesta «%1» må vera køyrbar for å kunna starta."
 
-#: klauncher/klauncher.cpp:629 klauncher/klauncher.cpp:690
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "Tenesta «%1» har feil format."
 
-#: klauncher/klauncher.cpp:785
+#: klauncher/klauncher.cpp:784
 #, kde-format
 msgid "Launching %1"
 msgstr "Startar %1"
 
-#: klauncher/klauncher.cpp:966
+#: klauncher/klauncher.cpp:965
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Ukjend protokoll «%1».\n"
 
-#: klauncher/klauncher.cpp:972
+#: klauncher/klauncher.cpp:971
 #, kde-format
 msgid "Could not find the '%1' plugin.\n"
 msgstr "Fann ikkje «%1»-biblioteket.\n"
 
-#: klauncher/klauncher.cpp:1045
+#: klauncher/klauncher.cpp:1044
 #, kde-format
 msgid "Error loading '%1'."
 msgstr "Feil ved lasting av «%1»."

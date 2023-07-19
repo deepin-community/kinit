@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:14+0000\n"
+"POT-Creation-Date: 2023-01-22 00:53+0000\n"
 "PO-Revision-Date: 2020-10-11 22:39+0200\n"
 "Last-Translator: Phu Hung Nguyen <phu.nguyen@kdemail.net>\n"
 "Language-Team: Vietnamese <kde-l10n-vi@kde.org>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Lokalize 19.12.2\n"
 
-#: kdeinit/kinit.cpp:448
+#: kdeinit/kinit.cpp:455
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Hệ thống có thể đã đạt đến số lượng tệp đang mở tối đa hoặc bạn đã đạt đến "
 "số lượng tệp đang mở tối đa mà bạn được phép sử dụng."
 
-#: kdeinit/kinit.cpp:470
+#: kdeinit/kinit.cpp:477
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -47,37 +47,37 @@ msgstr ""
 msgid "KDEInit could not launch '%1'"
 msgstr "KDEinit không khởi chạy được '%1'"
 
-#: klauncher/klauncher.cpp:595 klauncher/klauncher.cpp:609
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "Không tìm được dịch vụ '%1'"
 
-#: klauncher/klauncher.cpp:627
+#: klauncher/klauncher.cpp:626
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr "Dịch vụ '%1' phải có tính thực thi để chạy được."
 
-#: klauncher/klauncher.cpp:629 klauncher/klauncher.cpp:690
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "Dịch vụ '%1' được định dạng sai."
 
-#: klauncher/klauncher.cpp:785
+#: klauncher/klauncher.cpp:784
 #, kde-format
 msgid "Launching %1"
 msgstr "Đang khởi chạy %1"
 
-#: klauncher/klauncher.cpp:966
+#: klauncher/klauncher.cpp:965
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Giao thức không rõ '%1'.\n"
 
-#: klauncher/klauncher.cpp:972
+#: klauncher/klauncher.cpp:971
 #, kde-format
 msgid "Could not find the '%1' plugin.\n"
 msgstr "Không tìm được phần cài cắm '%1'.\n"
 
-#: klauncher/klauncher.cpp:1045
+#: klauncher/klauncher.cpp:1044
 #, kde-format
 msgid "Error loading '%1'."
 msgstr "Lỗi khi tải '%1'."
@@ -90,3 +90,20 @@ msgid ""
 msgstr ""
 "klauncher: Chương trình này không dự tính là được khởi động thủ công.\n"
 "klauncher: Nó được khởi động tự động bởi kdeinit.\n"
+
+#~ msgid "Could not find '%1' executable."
+#~ msgstr "Không tìm được tệp thực thi '%1'."
+
+#~ msgid ""
+#~ "Could not open library '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Không mở được thư viện '%1'.\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "Could not find 'kdemain' in '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Không tìm được 'kdemain' trong '%1'.\n"
+#~ "%2"

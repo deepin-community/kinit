@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinit5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:14+0000\n"
+"POT-Creation-Date: 2023-01-22 00:53+0000\n"
 "PO-Revision-Date: 2017-12-12 15:46-0300\n"
 "Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
 "Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: kdeinit/kinit.cpp:448
+#: kdeinit/kinit.cpp:455
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -40,7 +40,7 @@ msgstr ""
 "foi alcançado o número máximo de arquivos abertos que é permitido a você "
 "usar."
 
-#: kdeinit/kinit.cpp:470
+#: kdeinit/kinit.cpp:477
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -56,37 +56,37 @@ msgstr ""
 msgid "KDEInit could not launch '%1'"
 msgstr "O KDEInit não pôde iniciar '%1'"
 
-#: klauncher/klauncher.cpp:595 klauncher/klauncher.cpp:609
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "Não foi possível encontrar o serviço '%1'."
 
-#: klauncher/klauncher.cpp:627
+#: klauncher/klauncher.cpp:626
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr "O serviço '%1' deve ser executável para executar."
 
-#: klauncher/klauncher.cpp:629 klauncher/klauncher.cpp:690
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "O serviço '%1' está mal-formatado."
 
-#: klauncher/klauncher.cpp:785
+#: klauncher/klauncher.cpp:784
 #, kde-format
 msgid "Launching %1"
 msgstr "Lançando %1"
 
-#: klauncher/klauncher.cpp:966
+#: klauncher/klauncher.cpp:965
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "Protocolo desconhecido '%1'.\n"
 
-#: klauncher/klauncher.cpp:972
+#: klauncher/klauncher.cpp:971
 #, kde-format
 msgid "Could not find the '%1' plugin.\n"
 msgstr "Não foi possível encontrar o plugin '%1'.\n"
 
-#: klauncher/klauncher.cpp:1045
+#: klauncher/klauncher.cpp:1044
 #, kde-format
 msgid "Error loading '%1'."
 msgstr "Erro ao carregar '%1'."
@@ -99,3 +99,20 @@ msgid ""
 msgstr ""
 "klauncher: Este programa não é para ser iniciado manualmente.\n"
 "klauncher: Ele é iniciado automaticamente pelo kdeinit5.\n"
+
+#~ msgid "Could not find '%1' executable."
+#~ msgstr "Não foi possível encontrar o executável '%1'."
+
+#~ msgid ""
+#~ "Could not open library '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Não foi possível abrir a biblioteca '%1'.\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "Could not find 'kdemain' in '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "Não foi possível encontrar 'kdemain' em '%1'.\n"
+#~ "%2"

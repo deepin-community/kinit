@@ -6,21 +6,22 @@ Uploaders: Aurélien COUDERC <coucouf@debian.org>,
            Norbert Preining <norbert@preining.info>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
-               extra-cmake-modules (>= 5.90.0~),
+               extra-cmake-modules (>= 5.103.0~),
                libcap-dev [linux-any],
                libcap2-bin [linux-any],
-               libkf5config-dev (>= 5.90.0~),
-               libkf5crash-dev (>= 5.90.0~),
-               libkf5dbusaddons-dev (>= 5.90.0~),
-               libkf5doctools-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
-               libkf5kio-dev (>= 5.90.0~),
-               libkf5service-dev (>= 5.90.0~),
-               libkf5windowsystem-dev (>= 5.90.0~),
+               libkf5config-dev (>= 5.103.0~),
+               libkf5crash-dev (>= 5.103.0~),
+               libkf5dbusaddons-dev (>= 5.103.0~),
+               libkf5doctools-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
+               libkf5kio-dev (>= 5.103.0~),
+               libkf5service-dev (>= 5.103.0~),
+               libkf5windowsystem-dev (>= 5.103.0~),
+               libx11-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.15.2~),
-Standards-Version: 4.6.0
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/kinit
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kinit
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kinit.git
@@ -28,7 +29,7 @@ Rules-Requires-Root: no
 
 Package: kinit
 Architecture: any
-Depends: libcap2-bin [linux-any], ${misc:Depends}, ${shlibs:Depends}
+Depends: libcap2-bin [linux-any], ${misc:Depends}, ${shlibs:Depends},
 Description: process launcher to speed up launching KDE applications
  kdeinit is a process launcher somewhat similar to the
  famous init used for booting UNIX.
@@ -45,7 +46,7 @@ Description: process launcher to speed up launching KDE applications
 Package: kinit-dev
 Section: libdevel
 Architecture: any
-Depends: kinit (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: kinit (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends},
 Description: process launcher to speed up launching KDE applications
  kdeinit is a process launcher somewhat similar to the
  famous init used for booting UNIX.
@@ -60,4 +61,4 @@ Description: process launcher to speed up launching KDE applications
  consumption by approx. 350Kb per application.
  .
  Contains development files for kinit.
-Breaks: libkf5kdelibs4support-dev (<< 5.54)
+Breaks: libkf5kdelibs4support-dev (<< 5.54),

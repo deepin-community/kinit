@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-10 00:14+0000\n"
+"POT-Creation-Date: 2023-01-22 00:53+0000\n"
 "PO-Revision-Date: 2016-12-14 15:42+0800\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: kdeinit/kinit.cpp:448
+#: kdeinit/kinit.cpp:455
 #, kde-format
 msgid ""
 "Unable to start new process.\n"
@@ -37,7 +37,7 @@ msgstr ""
 "無法啟動新的行程。\n"
 "系統使用/您被允許使用的檔案數目可能已達上限。"
 
-#: kdeinit/kinit.cpp:470
+#: kdeinit/kinit.cpp:477
 #, kde-format
 msgid ""
 "Unable to create new process.\n"
@@ -52,37 +52,37 @@ msgstr ""
 msgid "KDEInit could not launch '%1'"
 msgstr "KDEInit 無法啟動‘%1’"
 
-#: klauncher/klauncher.cpp:595 klauncher/klauncher.cpp:609
+#: klauncher/klauncher.cpp:594 klauncher/klauncher.cpp:608
 #, kde-format
 msgid "Could not find service '%1'."
 msgstr "找不到服務程式‘%1’。"
 
-#: klauncher/klauncher.cpp:627
+#: klauncher/klauncher.cpp:626
 #, kde-format
 msgid "Service '%1' must be executable to run."
 msgstr "服務 %1 要設成可執行。"
 
-#: klauncher/klauncher.cpp:629 klauncher/klauncher.cpp:690
+#: klauncher/klauncher.cpp:628 klauncher/klauncher.cpp:689
 #, kde-format
 msgid "Service '%1' is malformatted."
 msgstr "服務程式‘%1’的格式不正確。"
 
-#: klauncher/klauncher.cpp:785
+#: klauncher/klauncher.cpp:784
 #, kde-format
 msgid "Launching %1"
 msgstr "啟動 %1"
 
-#: klauncher/klauncher.cpp:966
+#: klauncher/klauncher.cpp:965
 #, kde-format
 msgid "Unknown protocol '%1'.\n"
 msgstr "不明的協定‘%1’。\n"
 
-#: klauncher/klauncher.cpp:972
+#: klauncher/klauncher.cpp:971
 #, kde-format
 msgid "Could not find the '%1' plugin.\n"
 msgstr "找不到外掛程式 '%1'。\n"
 
-#: klauncher/klauncher.cpp:1045
+#: klauncher/klauncher.cpp:1044
 #, kde-format
 msgid "Error loading '%1'."
 msgstr "載入‘%1’發生錯誤。"
@@ -95,3 +95,20 @@ msgid ""
 msgstr ""
 "klauncher：這個程式不是用來手動開啟的。\n"
 "klauncher：它應是被 kdeinit5 自動開啟的。\n"
+
+#~ msgid "Could not find '%1' executable."
+#~ msgstr "找不到可執行檔‘%1’。"
+
+#~ msgid ""
+#~ "Could not open library '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "無法開啟程式庫‘%1’。\n"
+#~ "%2"
+
+#~ msgid ""
+#~ "Could not find 'kdemain' in '%1'.\n"
+#~ "%2"
+#~ msgstr ""
+#~ "無法找在 '%1' 找到 'kdemain'。\n"
+#~ "%2"
